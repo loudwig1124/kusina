@@ -1,0 +1,386 @@
+{
+  "name": "Kusina kitchen palette",
+  "version": "1.1.0",
+  "owner": "pixel-designer",
+  "source": "docs/07-pixel-ui-spec.md (section 2); consumed by design/mockups/generate.py",
+  "canvas": {
+    "logical_w": 180,
+    "logical_h": 320,
+    "integer_scales": [
+      2,
+      3,
+      4
+    ],
+    "reference_scale": 3,
+    "output_w": 540,
+    "output_h": 960,
+    "resample": "NEAREST",
+    "note": "1 logical art unit (au) = 3 image pixels at the reference scale. Scales 2x/4x are the only other allowed sizes."
+  },
+  "colors": {
+    "ink": {
+      "hex": "#1B1410",
+      "rgb": [
+        27,
+        20,
+        16
+      ],
+      "role": "Primary text, icon strokes, 9-slice inner detail"
+    },
+    "ink_soft": {
+      "hex": "#4A3A2C",
+      "rgb": [
+        74,
+        58,
+        44
+      ],
+      "role": "Secondary text, inactive tabs, unknown (Probably have) text"
+    },
+    "adobo": {
+      "hex": "#2A1E18",
+      "rgb": [
+        42,
+        30,
+        24
+      ],
+      "role": "9-slice panel border and shadow, dark toast panel base"
+    },
+    "cream": {
+      "hex": "#F6EAD3",
+      "rgb": [
+        246,
+        234,
+        211
+      ],
+      "role": "App background: coconut cream wall"
+    },
+    "cream_dark": {
+      "hex": "#E4D1B2",
+      "rgb": [
+        228,
+        209,
+        178
+      ],
+      "role": "Panel fill, disabled fill, unknown (Probably have) chip fill"
+    },
+    "clay": {
+      "hex": "#A8432B",
+      "rgb": [
+        168,
+        67,
+        43
+      ],
+      "role": "Primary button fill, selected control fill (adobe clay)"
+    },
+    "clay_dark": {
+      "hex": "#7C2E1C",
+      "rgb": [
+        124,
+        46,
+        28
+      ],
+      "role": "Primary button pressed, accent text on cream, active tab"
+    },
+    "banig": {
+      "hex": "#D9A23F",
+      "rgb": [
+        217,
+        162,
+        63
+      ],
+      "role": "Banig-weave decorative bands, progress fill, idle badge (non-text)"
+    },
+    "calamansi": {
+      "hex": "#7E9C33",
+      "rgb": [
+        126,
+        156,
+        51
+      ],
+      "role": "'Have' status fill, 'Ready' badge fill"
+    },
+    "calamansi_dark": {
+      "hex": "#4A6416",
+      "rgb": [
+        74,
+        100,
+        22
+      ],
+      "role": "'Have' status icon/dot, success text on cream"
+    },
+    "amber": {
+      "hex": "#E0A32B",
+      "rgb": [
+        224,
+        163,
+        43
+      ],
+      "role": "'Low' status fill, 'Probably have' badge fill"
+    },
+    "amber_dark": {
+      "hex": "#7A4E08",
+      "rgb": [
+        122,
+        78,
+        8
+      ],
+      "role": "'Low' status icon/dot, caution text on cream"
+    },
+    "rust": {
+      "hex": "#B23A2F",
+      "rgb": [
+        178,
+        58,
+        47
+      ],
+      "role": "'Out' and 'Missing' status fill, destructive"
+    },
+    "rust_dark": {
+      "hex": "#7A2119",
+      "rgb": [
+        122,
+        33,
+        25
+      ],
+      "role": "'Out' status icon/dot, missing text on cream"
+    },
+    "slate": {
+      "hex": "#8A9299",
+      "rgb": [
+        138,
+        146,
+        153
+      ],
+      "role": "Neutral dot, disabled icon, unknown (Probably have) border (never a text colour on cream)"
+    },
+    "white": {
+      "hex": "#FFF8EA",
+      "rgb": [
+        255,
+        248,
+        234
+      ],
+      "role": "Text on dark or saturated fills, raised panel fill, pixel highlight"
+    }
+  },
+  "states": {
+    "have": {
+      "fill": "calamansi",
+      "text": "ink",
+      "icon": "check",
+      "label": "Have",
+      "dot": "calamansi_dark"
+    },
+    "low": {
+      "fill": "amber",
+      "text": "ink",
+      "icon": "half",
+      "label": "Low",
+      "dot": "amber_dark"
+    },
+    "out": {
+      "fill": "rust",
+      "text": "white",
+      "icon": "cross",
+      "label": "Out",
+      "dot": "rust_dark"
+    },
+    "unknown": {
+      "fill": "cream_dark",
+      "text": "ink_soft",
+      "icon": "question",
+      "label": "Probably have",
+      "dot": "slate"
+    }
+  },
+  "availability": {
+    "ready": {
+      "fill": "calamansi",
+      "text": "ink",
+      "label": "Ready"
+    },
+    "needs_confirmation": {
+      "fill": "amber",
+      "text": "ink",
+      "label": "Probably have"
+    },
+    "blocked": {
+      "fill": "rust",
+      "text": "white",
+      "label": "Missing"
+    }
+  },
+  "contrast": [
+    {
+      "fg": "ink",
+      "bg": "cream",
+      "ratio": 15.27,
+      "wcag": "AAA",
+      "use": "body and instruction text"
+    },
+    {
+      "fg": "ink",
+      "bg": "white",
+      "ratio": 17.21,
+      "wcag": "AAA",
+      "use": "body text on raised panels"
+    },
+    {
+      "fg": "ink_soft",
+      "bg": "cream",
+      "ratio": 9.12,
+      "wcag": "AAA",
+      "use": "secondary text"
+    },
+    {
+      "fg": "ink_soft",
+      "bg": "cream_dark",
+      "ratio": 7.28,
+      "wcag": "AAA",
+      "use": "unknown (Probably have) chip text"
+    },
+    {
+      "fg": "white",
+      "bg": "clay",
+      "ratio": 5.67,
+      "wcag": "AA",
+      "use": "primary button label"
+    },
+    {
+      "fg": "white",
+      "bg": "clay_dark",
+      "ratio": 8.77,
+      "wcag": "AAA",
+      "use": "pressed primary button label"
+    },
+    {
+      "fg": "clay_dark",
+      "bg": "cream",
+      "ratio": 7.78,
+      "wcag": "AAA",
+      "use": "accent text, active tab label"
+    },
+    {
+      "fg": "clay",
+      "bg": "cream",
+      "ratio": 5.03,
+      "wcag": "AA",
+      "use": "large accent text only"
+    },
+    {
+      "fg": "cream",
+      "bg": "adobo",
+      "ratio": 13.59,
+      "wcag": "AAA",
+      "use": "toast and dialog text on dark panels"
+    },
+    {
+      "fg": "white",
+      "bg": "adobo",
+      "ratio": 15.31,
+      "wcag": "AAA",
+      "use": "dialog title on dark panels"
+    },
+    {
+      "fg": "ink",
+      "bg": "calamansi",
+      "ratio": 5.8,
+      "wcag": "AA",
+      "use": "'Have' chip text"
+    },
+    {
+      "fg": "ink",
+      "bg": "amber",
+      "ratio": 8.18,
+      "wcag": "AAA",
+      "use": "'Low' chip text"
+    },
+    {
+      "fg": "white",
+      "bg": "rust",
+      "ratio": 5.61,
+      "wcag": "AA",
+      "use": "'Out' / 'Missing' chip text"
+    },
+    {
+      "fg": "calamansi_dark",
+      "bg": "cream",
+      "ratio": 5.64,
+      "wcag": "AA",
+      "use": "success line text"
+    },
+    {
+      "fg": "amber_dark",
+      "bg": "cream",
+      "ratio": 6.04,
+      "wcag": "AA",
+      "use": "caution line text"
+    },
+    {
+      "fg": "rust_dark",
+      "bg": "cream",
+      "ratio": 8.56,
+      "wcag": "AAA",
+      "use": "missing line text"
+    },
+    {
+      "fg": "ink",
+      "bg": "banig",
+      "ratio": 7.96,
+      "wcag": "AAA",
+      "use": "label on banig detail strip"
+    },
+    {
+      "fg": "banig",
+      "bg": "adobo",
+      "ratio": 7.08,
+      "wcag": "AAA",
+      "use": "weave highlight on dark toast"
+    }
+  ],
+  "forbidden_pairs": [
+    {
+      "fg": "white",
+      "bg": "calamansi",
+      "ratio": 2.97,
+      "why": "fails AA; 'Have' chips use ink text"
+    },
+    {
+      "fg": "white",
+      "bg": "banig",
+      "ratio": 2.16,
+      "why": "fails AA; banig is never a background for text"
+    },
+    {
+      "fg": "white",
+      "bg": "slate",
+      "ratio": 2.99,
+      "why": "fails AA; slate is decoration only"
+    },
+    {
+      "fg": "clay",
+      "bg": "cream_dark",
+      "ratio": 4.01,
+      "why": "fails AA for normal text; use clay_dark"
+    }
+  ],
+  "rules": [
+    "Stock state is exactly one of unknown | have | low | out (docs/06 L3). The unknown chip is labelled 'Probably have' with a confirm affordance (docs/06 3.4).",
+    "Status is never colour alone: every state pairs a colour, an icon shape, and a text label.",
+    "Colour names are semantic roles, not palette positions. rust is reserved for Out / Missing / destructive.",
+    "banig and slate never carry body text.",
+    "Maximum 16 colours. A new colour needs a new contrast row here and a spec amendment."
+  ],
+  "flags": {
+    "warn": {
+      "fill": "amber",
+      "text": "ink",
+      "label": "may run short"
+    },
+    "confirm": {
+      "fill": "cream_dark",
+      "text": "ink_soft",
+      "label": "probably have - confirm"
+    }
+  }
+}

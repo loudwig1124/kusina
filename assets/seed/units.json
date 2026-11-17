@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "code": "g",
+    "name": "Gram",
+    "dimension": "mass"
+  },
+  {
+    "id": 2,
+    "code": "kg",
+    "name": "Kilogram",
+    "dimension": "mass"
+  },
+  {
+    "id": 3,
+    "code": "ml",
+    "name": "Millilitre",
+    "dimension": "volume"
+  },
+  {
+    "id": 4,
+    "code": "l",
+    "name": "Litre",
+    "dimension": "volume"
+  },
+  {
+    "id": 5,
+    "code": "tsp",
+    "name": "Teaspoon",
+    "dimension": "volume"
+  },
+  {
+    "id": 6,
+    "code": "tbsp",
+    "name": "Tablespoon",
+    "dimension": "volume"
+  },
+  {
+    "id": 7,
+    "code": "cup",
+    "name": "Cup",
+    "dimension": "volume"
+  },
+  {
+    "id": 8,
+    "code": "pc",
+    "name": "Piece",
+    "dimension": "count"
+  },
+  {
+    "id": 9,
+    "code": "clove",
+    "name": "Clove",
+    "dimension": "count"
+  }
+]

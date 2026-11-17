@@ -1,0 +1,72 @@
+{
+  "seedVersion": 1,
+  "kitchen": {
+    "name": "Maria's Kitchen",
+    "equipment": [
+      "stovetop",
+      "air_fryer"
+    ]
+  },
+  "stock": [
+    {
+      "ingredient": "chicken_thighs",
+      "status": "have"
+    },
+    {
+      "ingredient": "pork_belly",
+      "status": "have"
+    },
+    {
+      "ingredient": "rice",
+      "status": "have"
+    },
+    {
+      "ingredient": "garlic",
+      "status": "have"
+    },
+    {
+      "ingredient": "soy_sauce",
+      "status": "have"
+    },
+    {
+      "ingredient": "vinegar",
+      "status": "have"
+    },
+    {
+      "ingredient": "bay_leaf",
+      "status": "out"
+    },
+    {
+      "ingredient": "cooking_oil",
+      "status": "have"
+    },
+    {
+      "ingredient": "salt",
+      "status": "have"
+    },
+    {
+      "ingredient": "black_pepper",
+      "status": "have"
+    },
+    {
+      "ingredient": "sugar",
+      "status": "have"
+    },
+    {
+      "ingredient": "spring_onion",
+      "status": "low"
+    },
+    {
+      "ingredient": "calamansi",
+      "status": "unknown"
+    },
+    {
+      "ingredient": "eggs",
+      "status": "have"
+    },
+    {
+      "ingredient": "banana_ketchup",
+      "status": "unknown"
+    }
+  ]
+}

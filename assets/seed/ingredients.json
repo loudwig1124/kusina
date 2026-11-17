@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "code": "chicken_thighs",
+    "name": "Chicken thighs",
+    "category": "meat"
+  },
+  {
+    "id": 2,
+    "code": "pork_belly",
+    "name": "Pork belly",
+    "category": "meat"
+  },
+  {
+    "id": 3,
+    "code": "rice",
+    "name": "Rice",
+    "category": "pantry"
+  },
+  {
+    "id": 4,
+    "code": "garlic",
+    "name": "Garlic",
+    "category": "produce"
+  },
+  {
+    "id": 5,
+    "code": "soy_sauce",
+    "name": "Soy sauce",
+    "category": "condiments"
+  },
+  {
+    "id": 6,
+    "code": "vinegar",
+    "name": "Vinegar",
+    "category": "condiments"
+  },
+  {
+    "id": 7,
+    "code": "bay_leaf",
+    "name": "Bay leaf",
+    "category": "spices"
+  },
+  {
+    "id": 8,
+    "code": "cooking_oil",
+    "name": "Cooking oil",
+    "category": "condiments"
+  },
+  {
+    "id": 9,
+    "code": "salt",
+    "name": "Salt",
+    "category": "spices"
+  },
+  {
+    "id": 10,
+    "code": "black_pepper",
+    "name": "Black pepper",
+    "category": "spices"
+  },
+  {
+    "id": 11,
+    "code": "sugar",
+    "name": "Sugar",
+    "category": "pantry"
+  },
+  {
+    "id": 12,
+    "code": "spring_onion",
+    "name": "Spring onion",
+    "category": "produce"
+  },
+  {
+    "id": 13,
+    "code": "calamansi",
+    "name": "Calamansi",
+    "category": "produce"
+  },
+  {
+    "id": 14,
+    "code": "eggs",
+    "name": "Eggs",
+    "category": "dairy_eggs"
+  },
+  {
+    "id": 15,
+    "code": "banana_ketchup",
+    "name": "Banana ketchup",
+    "category": "condiments"
+  }
+]

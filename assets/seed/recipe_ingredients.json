@@ -1,0 +1,210 @@
+[
+  {
+    "recipe_id": 1,
+    "ingredient_id": 1,
+    "quantity": 1000,
+    "unit_id": 1,
+    "is_optional": 0,
+    "preparation_note": "Bone-in, cut into serving pieces"
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 5,
+    "quantity": 60,
+    "unit_id": 3,
+    "is_optional": 0,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 6,
+    "quantity": 60,
+    "unit_id": 3,
+    "is_optional": 0,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 4,
+    "quantity": 6,
+    "unit_id": 9,
+    "is_optional": 0,
+    "preparation_note": "Crushed"
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 7,
+    "quantity": 3,
+    "unit_id": 8,
+    "is_optional": 0,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 8,
+    "quantity": 30,
+    "unit_id": 3,
+    "is_optional": 1,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 10,
+    "quantity": 2,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": "Cracked"
+  },
+  {
+    "recipe_id": 1,
+    "ingredient_id": 11,
+    "quantity": 10,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 3,
+    "quantity": 300,
+    "unit_id": 1,
+    "is_optional": 0,
+    "preparation_note": "Rinsed raw rice"
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 4,
+    "quantity": 4,
+    "unit_id": 9,
+    "is_optional": 0,
+    "preparation_note": "Minced"
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 8,
+    "quantity": 30,
+    "unit_id": 3,
+    "is_optional": 0,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 9,
+    "quantity": 3,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 10,
+    "quantity": 1,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": "Ground"
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 12,
+    "quantity": 15,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": "Chopped"
+  },
+  {
+    "recipe_id": 2,
+    "ingredient_id": 14,
+    "quantity": 2,
+    "unit_id": 8,
+    "is_optional": 1,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 2,
+    "quantity": 1000,
+    "unit_id": 1,
+    "is_optional": 0,
+    "preparation_note": "Skin on, scored"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 9,
+    "quantity": 10,
+    "unit_id": 1,
+    "is_optional": 0,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 4,
+    "quantity": 4,
+    "unit_id": 9,
+    "is_optional": 1,
+    "preparation_note": "Crushed"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 7,
+    "quantity": 2,
+    "unit_id": 8,
+    "is_optional": 1,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 10,
+    "quantity": 3,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": "Cracked"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 8,
+    "quantity": 30,
+    "unit_id": 3,
+    "is_optional": 1,
+    "preparation_note": null
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 5,
+    "quantity": 30,
+    "unit_id": 3,
+    "is_optional": 1,
+    "preparation_note": "For the dip"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 6,
+    "quantity": 30,
+    "unit_id": 3,
+    "is_optional": 1,
+    "preparation_note": "For the dip"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 12,
+    "quantity": 20,
+    "unit_id": 1,
+    "is_optional": 1,
+    "preparation_note": "Chopped"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 13,
+    "quantity": 3,
+    "unit_id": 8,
+    "is_optional": 1,
+    "preparation_note": "Halved"
+  },
+  {
+    "recipe_id": 3,
+    "ingredient_id": 15,
+    "quantity": 60,
+    "unit_id": 3,
+    "is_optional": 1,
+    "preparation_note": null
+  }
+]

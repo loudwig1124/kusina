@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Adobo",
+    "slug": "chicken-adobo",
+    "description": "Chicken simmered in soy sauce, vinegar, and garlic until tender: the everyday Filipino braise.",
+    "cuisine": "Filipino",
+    "servings": 4,
+    "prep_minutes": 10,
+    "cook_minutes": 35,
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "name": "Sinangag",
+    "slug": "sinangag",
+    "description": "Filipino garlic fried rice: rice tossed in garlicky oil until toasted and fragrant.",
+    "cuisine": "Filipino",
+    "servings": 2,
+    "prep_minutes": 5,
+    "cook_minutes": 20,
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "name": "Crispy Pork Belly",
+    "slug": "crispy-pork-belly",
+    "description": "Pork belly simmered until tender, then crisped by air or in a pan, served with banana ketchup and a soy-vinegar dip.",
+    "cuisine": "Filipino",
+    "servings": 4,
+    "prep_minutes": 15,
+    "cook_minutes": 50,
+    "difficulty": "medium"
+  }
+]

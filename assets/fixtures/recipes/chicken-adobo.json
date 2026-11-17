@@ -1,0 +1,185 @@
+{
+  "seedVersion": 1,
+  "recipe": {
+    "id": "chicken-adobo",
+    "slug": "chicken-adobo",
+    "name": "Chicken Adobo",
+    "description": "Chicken simmered in soy sauce, vinegar, and garlic until tender: the everyday Filipino braise.",
+    "cuisine": "Filipino",
+    "baseServings": 4,
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "difficulty": "easy",
+    "sortOrder": 1,
+    "dishStampKey": "dish_chicken_adobo",
+    "requiredEquipment": [
+      "stovetop"
+    ],
+    "methods": [],
+    "ingredients": [
+      {
+        "ingredient": "chicken_thighs",
+        "quantity": 1000,
+        "unit": "g",
+        "optional": false,
+        "preparationNote": "Bone-in, cut into serving pieces"
+      },
+      {
+        "ingredient": "soy_sauce",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": false,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "vinegar",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": false,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "garlic",
+        "quantity": 6,
+        "unit": "clove",
+        "optional": false,
+        "preparationNote": "Crushed"
+      },
+      {
+        "ingredient": "bay_leaf",
+        "quantity": 3,
+        "unit": "pc",
+        "optional": false,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "cooking_oil",
+        "quantity": 30,
+        "unit": "ml",
+        "optional": true,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "black_pepper",
+        "quantity": 2,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": "Cracked"
+      },
+      {
+        "ingredient": "sugar",
+        "quantity": 10,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": null
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "kind": "prep",
+        "instruction": "Pat the chicken dry and season with black pepper.",
+        "detail": "Dry skin browns instead of steaming; season both sides.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [
+          "chicken_thighs",
+          "black_pepper"
+        ],
+        "caution": null,
+        "spriteKey": "step_prep_none",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 2,
+        "kind": "heat",
+        "instruction": "Heat the cooking oil in a wide pan over medium heat.",
+        "detail": "The oil is ready when a drop of water sizzles.",
+        "durationSeconds": 480,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "cooking_oil"
+        ],
+        "caution": "Hot oil.",
+        "spriteKey": "step_heat_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 3,
+        "kind": "cook",
+        "instruction": "Brown the chicken on all sides in batches.",
+        "detail": "Give each piece room; crowding steams the meat.",
+        "durationSeconds": null,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "chicken_thighs"
+        ],
+        "caution": null,
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 4,
+        "kind": "cook",
+        "instruction": "Add the garlic and cook until fragrant. Pour in the soy sauce, vinegar, sugar, and 120 ml water.",
+        "detail": "Let the vinegar bubble before stirring so it mellows.",
+        "durationSeconds": null,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "garlic",
+          "soy_sauce",
+          "vinegar",
+          "sugar"
+        ],
+        "caution": null,
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 5,
+        "kind": "wait",
+        "instruction": "Add the bay leaves, cover, and simmer until the chicken is tender.",
+        "detail": "Tender means a fork twists easily in the meat.",
+        "durationSeconds": 1500,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "bay_leaf"
+        ],
+        "caution": null,
+        "spriteKey": "step_wait_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 6,
+        "kind": "cook",
+        "instruction": "Uncover and reduce the sauce, spooning it over the chicken.",
+        "detail": "It is ready when the sauce coats the back of a spoon.",
+        "durationSeconds": 300,
+        "equipment": "stovetop",
+        "ingredientRefs": [],
+        "caution": null,
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 7,
+        "kind": "finish",
+        "instruction": "Serve hot with rice.",
+        "detail": "Spoon the sauce over each serving.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [],
+        "caution": null,
+        "spriteKey": "step_finish_none",
+        "variantGroup": null,
+        "variants": []
+      }
+    ]
+  }
+}

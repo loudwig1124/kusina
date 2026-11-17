@@ -1,0 +1,152 @@
+{
+  "seedVersion": 1,
+  "recipe": {
+    "id": "sinangag",
+    "slug": "sinangag",
+    "name": "Sinangag",
+    "description": "Filipino garlic fried rice: rice tossed in garlicky oil until toasted and fragrant.",
+    "cuisine": "Filipino",
+    "baseServings": 2,
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "difficulty": "easy",
+    "sortOrder": 2,
+    "dishStampKey": "dish_sinangag",
+    "requiredEquipment": [
+      "stovetop"
+    ],
+    "methods": [],
+    "ingredients": [
+      {
+        "ingredient": "rice",
+        "quantity": 300,
+        "unit": "g",
+        "optional": false,
+        "preparationNote": "Rinsed raw rice"
+      },
+      {
+        "ingredient": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": false,
+        "preparationNote": "Minced"
+      },
+      {
+        "ingredient": "cooking_oil",
+        "quantity": 30,
+        "unit": "ml",
+        "optional": false,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "salt",
+        "quantity": 3,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "black_pepper",
+        "quantity": 1,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": "Ground"
+      },
+      {
+        "ingredient": "spring_onion",
+        "quantity": 15,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": "Chopped"
+      },
+      {
+        "ingredient": "eggs",
+        "quantity": 2,
+        "unit": "pc",
+        "optional": true,
+        "preparationNote": null
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "kind": "prep",
+        "instruction": "Rinse the rice until the water runs clear, then drain it well.",
+        "detail": "Shake the colander dry so the grains toast instead of steam.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [
+          "rice"
+        ],
+        "caution": null,
+        "spriteKey": "step_prep_none",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 2,
+        "kind": "cook",
+        "instruction": "Simmer the rice in a covered pot until tender, then spread it on a tray.",
+        "detail": "The lid stays on; the steam finishes the rice.",
+        "durationSeconds": 780,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "rice"
+        ],
+        "caution": "Steam is hot; lift the lid away from you.",
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 3,
+        "kind": "cook",
+        "instruction": "Fry the garlic in hot oil until golden, then add the rice and toss to coat.",
+        "detail": "Golden, not brown; burnt garlic turns the rice bitter.",
+        "durationSeconds": 240,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "garlic",
+          "cooking_oil",
+          "rice"
+        ],
+        "caution": "Hot oil.",
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 4,
+        "kind": "cook",
+        "instruction": "Press the rice into the pan and let it crisp underneath before tossing again.",
+        "detail": "A dark, toasty crust is the point; listen for the sizzle.",
+        "durationSeconds": 180,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "rice"
+        ],
+        "caution": null,
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 5,
+        "kind": "finish",
+        "instruction": "Season with salt and pepper, scatter the spring onion, and serve.",
+        "detail": "Taste once more before it leaves the pan.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [
+          "salt",
+          "black_pepper",
+          "spring_onion"
+        ],
+        "caution": null,
+        "spriteKey": "step_finish_none",
+        "variantGroup": null,
+        "variants": []
+      }
+    ]
+  }
+}

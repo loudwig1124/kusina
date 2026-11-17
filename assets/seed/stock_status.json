@@ -1,0 +1,77 @@
+[
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 1,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 2,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 3,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 4,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 5,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 6,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 7,
+    "status": "out"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 8,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 9,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 10,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 11,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 12,
+    "status": "low"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 13,
+    "status": "unknown"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 14,
+    "status": "have"
+  },
+  {
+    "kitchen_id": 1,
+    "ingredient_id": 15,
+    "status": "unknown"
+  }
+]

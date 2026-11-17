@@ -1,0 +1,45 @@
+{
+  "seedVersion": 1,
+  "equipment": [
+    {
+      "id": "stovetop",
+      "name": "Stovetop",
+      "description": "Gas, electric, or induction stove",
+      "shipped": true,
+      "pickerNote": null,
+      "spriteKey": "eq_stovetop"
+    },
+    {
+      "id": "oven",
+      "name": "Oven",
+      "description": "Conventional or toaster oven",
+      "shipped": false,
+      "pickerNote": "No dishes yet",
+      "spriteKey": "eq_oven"
+    },
+    {
+      "id": "air_fryer",
+      "name": "Air Fryer",
+      "description": "Countertop air fryer",
+      "shipped": true,
+      "pickerNote": null,
+      "spriteKey": "eq_air_fryer"
+    },
+    {
+      "id": "grill",
+      "name": "Grill",
+      "description": "Charcoal, gas, or electric grill",
+      "shipped": false,
+      "pickerNote": "No dishes yet",
+      "spriteKey": "eq_grill"
+    },
+    {
+      "id": "pressure_cooker",
+      "name": "Pressure Cooker",
+      "description": "Stovetop or electric pressure cooker",
+      "shipped": false,
+      "pickerNote": "No dishes yet",
+      "spriteKey": "eq_pressure_cooker"
+    }
+  ]
+}

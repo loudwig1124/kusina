@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "step_id": 17,
+    "equipment_id": 1,
+    "instruction_override": "Heat the cooking oil in a pan and fry the pork belly skin-side down until crisp, turning once.",
+    "duration_override": 720,
+    "sprite_override": "step_cook_stovetop",
+    "priority": 10
+  }
+]

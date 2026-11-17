@@ -1,0 +1,140 @@
+{
+  "seedVersion": 1,
+  "ingredients": [
+    {
+      "id": "chicken_thighs",
+      "name": "Chicken thighs",
+      "filipinoGloss": "Hita ng manok",
+      "category": "meat",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_chicken_thighs"
+    },
+    {
+      "id": "pork_belly",
+      "name": "Pork belly",
+      "filipinoGloss": "Liempo",
+      "category": "meat",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_pork_belly"
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "filipinoGloss": "Bigas",
+      "category": "pantry",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_rice"
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "filipinoGloss": "Bawang",
+      "category": "produce",
+      "displayUnit": "clove",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_garlic"
+    },
+    {
+      "id": "soy_sauce",
+      "name": "Soy sauce",
+      "filipinoGloss": "Toyo",
+      "category": "condiments",
+      "displayUnit": "ml",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_soy_sauce"
+    },
+    {
+      "id": "vinegar",
+      "name": "Vinegar",
+      "filipinoGloss": "Suka",
+      "category": "condiments",
+      "displayUnit": "ml",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_vinegar"
+    },
+    {
+      "id": "bay_leaf",
+      "name": "Bay leaf",
+      "filipinoGloss": "Laurel",
+      "category": "spices",
+      "displayUnit": "pc",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_bay_leaf"
+    },
+    {
+      "id": "cooking_oil",
+      "name": "Cooking oil",
+      "filipinoGloss": "Mantika",
+      "category": "condiments",
+      "displayUnit": "ml",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_cooking_oil"
+    },
+    {
+      "id": "salt",
+      "name": "Salt",
+      "filipinoGloss": "Asin",
+      "category": "spices",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_salt"
+    },
+    {
+      "id": "black_pepper",
+      "name": "Black pepper",
+      "filipinoGloss": "Paminta",
+      "category": "spices",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_black_pepper"
+    },
+    {
+      "id": "sugar",
+      "name": "Sugar",
+      "filipinoGloss": "Asukal",
+      "category": "pantry",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_sugar"
+    },
+    {
+      "id": "spring_onion",
+      "name": "Spring onion",
+      "filipinoGloss": "Sibuyas dahon",
+      "category": "produce",
+      "displayUnit": "g",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_spring_onion"
+    },
+    {
+      "id": "calamansi",
+      "name": "Calamansi",
+      "filipinoGloss": "Kalamansi",
+      "category": "produce",
+      "displayUnit": "pc",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_calamansi"
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "filipinoGloss": "Itlog",
+      "category": "dairy_eggs",
+      "displayUnit": "pc",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_eggs"
+    },
+    {
+      "id": "banana_ketchup",
+      "name": "Banana ketchup",
+      "filipinoGloss": "Ketsap ng saging",
+      "category": "condiments",
+      "displayUnit": "ml",
+      "defaultStatus": "unknown",
+      "spriteKey": "ing_banana_ketchup"
+    }
+  ]
+}

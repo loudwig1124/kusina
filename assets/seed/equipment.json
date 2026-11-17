@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "code": "stovetop",
+    "name": "Stovetop",
+    "description": "Gas, electric, or induction stove"
+  },
+  {
+    "id": 2,
+    "code": "oven",
+    "name": "Oven",
+    "description": "Conventional or toaster oven"
+  },
+  {
+    "id": 3,
+    "code": "air_fryer",
+    "name": "Air Fryer",
+    "description": "Countertop air fryer"
+  },
+  {
+    "id": 4,
+    "code": "grill",
+    "name": "Grill",
+    "description": "Charcoal, gas, or electric grill"
+  },
+  {
+    "id": 5,
+    "code": "pressure_cooker",
+    "name": "Pressure Cooker",
+    "description": "Stovetop or electric pressure cooker"
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "seedVersion": 1,
+  "recipe": {
+    "id": "crispy-pork-belly",
+    "slug": "crispy-pork-belly",
+    "name": "Crispy Pork Belly",
+    "description": "Pork belly simmered until tender, then crisped by air or in a pan, served with banana ketchup and a soy-vinegar dip.",
+    "cuisine": "Filipino",
+    "baseServings": 4,
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "difficulty": "medium",
+    "sortOrder": 3,
+    "dishStampKey": "dish_crispy_pork_belly",
+    "requiredEquipment": [],
+    "methods": [
+      {
+        "key": "pan_fry",
+        "label": "Pan-fry",
+        "equipment": "stovetop",
+        "iconKey": "variant_panfry",
+        "canonical": false
+      },
+      {
+        "key": "air_fry",
+        "label": "Air-fry",
+        "equipment": "air_fryer",
+        "iconKey": "variant_airfry",
+        "canonical": true
+      }
+    ],
+    "ingredients": [
+      {
+        "ingredient": "pork_belly",
+        "quantity": 1000,
+        "unit": "g",
+        "optional": false,
+        "preparationNote": "Skin on, scored"
+      },
+      {
+        "ingredient": "salt",
+        "quantity": 10,
+        "unit": "g",
+        "optional": false,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "garlic",
+        "quantity": 4,
+        "unit": "clove",
+        "optional": true,
+        "preparationNote": "Crushed"
+      },
+      {
+        "ingredient": "bay_leaf",
+        "quantity": 2,
+        "unit": "pc",
+        "optional": true,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "black_pepper",
+        "quantity": 3,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": "Cracked"
+      },
+      {
+        "ingredient": "cooking_oil",
+        "quantity": 30,
+        "unit": "ml",
+        "optional": true,
+        "preparationNote": null
+      },
+      {
+        "ingredient": "soy_sauce",
+        "quantity": 30,
+        "unit": "ml",
+        "optional": true,
+        "preparationNote": "For the dip"
+      },
+      {
+        "ingredient": "vinegar",
+        "quantity": 30,
+        "unit": "ml",
+        "optional": true,
+        "preparationNote": "For the dip"
+      },
+      {
+        "ingredient": "spring_onion",
+        "quantity": 20,
+        "unit": "g",
+        "optional": true,
+        "preparationNote": "Chopped"
+      },
+      {
+        "ingredient": "calamansi",
+        "quantity": 3,
+        "unit": "pc",
+        "optional": true,
+        "preparationNote": "Halved"
+      },
+      {
+        "ingredient": "banana_ketchup",
+        "quantity": 60,
+        "unit": "ml",
+        "optional": true,
+        "preparationNote": null
+      }
+    ],
+    "steps": [
+      {
+        "stepNumber": 1,
+        "kind": "prep",
+        "instruction": "Pat the pork belly dry, score the skin, and season both sides with salt and black pepper.",
+        "detail": "Score through the skin only, about a finger apart.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [
+          "pork_belly",
+          "salt",
+          "black_pepper"
+        ],
+        "caution": "Keep the knife shallow; score the skin only.",
+        "spriteKey": "step_prep_none",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 2,
+        "kind": "heat",
+        "instruction": "Bring a pot of water to a boil with the garlic and bay leaves.",
+        "detail": "Enough water to cover the pork belly.",
+        "durationSeconds": 420,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "garlic",
+          "bay_leaf"
+        ],
+        "caution": "Hot water; lower the pork in gently.",
+        "spriteKey": "step_heat_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 3,
+        "kind": "cook",
+        "instruction": "Boil the pork belly with the aromatics until the meat is tender, skimming the surface.",
+        "detail": "A fork should slide into the meat with little resistance.",
+        "durationSeconds": 1500,
+        "equipment": "stovetop",
+        "ingredientRefs": [
+          "pork_belly",
+          "garlic",
+          "bay_leaf"
+        ],
+        "caution": null,
+        "spriteKey": "step_cook_stovetop",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 4,
+        "kind": "prep",
+        "instruction": "Drain the pork belly and dry the skin with paper towels.",
+        "detail": "Dry skin is what crisps; blot every corner.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [
+          "pork_belly"
+        ],
+        "caution": null,
+        "spriteKey": "step_prep_none",
+        "variantGroup": null,
+        "variants": []
+      },
+      {
+        "stepNumber": 5,
+        "kind": "cook",
+        "instruction": "Rub the skin with cooking oil, then air-fry at 200 °C until it puffs and crackles.",
+        "detail": "Arrange the pieces so the skin has room to bubble.",
+        "durationSeconds": 1200,
+        "equipment": "air_fryer",
+        "ingredientRefs": [
+          "pork_belly",
+          "cooking_oil"
+        ],
+        "caution": "Hot fat; open the basket away from you.",
+        "spriteKey": "step_cook_air_fryer",
+        "variantGroup": "cook_method",
+        "variants": [
+          {
+            "method": "pan_fry",
+            "equipment": "stovetop",
+            "instruction": "Heat the cooking oil in a pan and fry the pork belly skin-side down until crisp, turning once.",
+            "durationSeconds": 720,
+            "spriteKey": "step_cook_stovetop",
+            "priority": 10
+          }
+        ]
+      },
+      {
+        "stepNumber": 6,
+        "kind": "finish",
+        "instruction": "Rest the pork belly on a rack, then chop it into pieces. Serve with banana ketchup and a soy-vinegar dip with calamansi and spring onion.",
+        "detail": "Chopping skin-side up keeps the crackling intact.",
+        "durationSeconds": null,
+        "equipment": null,
+        "ingredientRefs": [
+          "banana_ketchup",
+          "soy_sauce",
+          "vinegar",
+          "calamansi",
+          "spring_onion"
+        ],
+        "caution": null,
+        "spriteKey": "step_finish_none",
+        "variantGroup": null,
+        "variants": []
+      }
+    ]
+  }
+}
